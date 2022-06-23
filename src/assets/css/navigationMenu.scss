@@ -1,0 +1,21 @@
+.navigation {
+
+        height: 60px;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;  
+        }
+
+        ul > li {
+            color: white;
+            padding-right: 1.5rem;
+        }
+}
+

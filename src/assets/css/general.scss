@@ -1,0 +1,25 @@
+@import "./media.scss";
+
+body {
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+
+    @include medium {
+        max-width: 768px;    
+    }
+
+    @include large {
+        max-width: 1024px;
+    }
+
+    @include xlarge {
+        max-width: 1240px;
+    }
+}
+
