@@ -1,8 +1,8 @@
-import './App.scss';
-import Header from "./components/header/Header";
-import NavigationMenu from "./components/navigation/NavigationMenu";
-import Content from "./components/main/Content";
-
+import "./App.scss"
+import Header from "./components/header/Header"
+import NavigationMenu from "./components/navigation/NavigationMenu"
+import Content from "./components/main/Content"
+import Footer from "./components/footer/Footer"
 
 function App() {
   return (
@@ -10,8 +10,9 @@ function App() {
       <Header />
       <NavigationMenu />
       <Content />
+      <Footer />
     </div>
   )
 }
 
-export default App;
+export default App
