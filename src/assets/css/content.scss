@@ -9,7 +9,7 @@
   }
   
   @include xlarge {
-    max-width: 1240px;
+    max-width: 1366px;
   }
 
   .mainContent {
@@ -54,21 +54,21 @@
         margin-bottom: 20px;
 
         @include small {
-
+          max-width: 560px;
         }
 
         @include medium {
-          width: 720px;
+          max-width: 728px;
           height: 250px;
         }
 
         @include large {
-          width: 660px;
+          max-width: 660px;
           height: 200px;
         }
 
         @include xlarge {
-          width: 880px;
+          max-width: 880px;
           height: 150px;
         }
       }
