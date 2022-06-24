@@ -7,8 +7,12 @@ body {
 }
 
 .container {
-    max-width: 500px;
+    max-width: 320px;
     margin: 0 auto;
+
+    @include small {
+        max-width: 600px;
+    }
 
     @include medium {
         max-width: 768px;    
@@ -19,7 +23,7 @@ body {
     }
 
     @include xlarge {
-        max-width: 1240px;
+        max-width: 1366px;
     }
 }
 
